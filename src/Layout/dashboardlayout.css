@@ -1,0 +1,15 @@
+.dashboard-container {
+  margin-top: 65px;
+  background: #fafafb;
+  padding: 10px;
+  min-height: calc(100vh - 65px);
+  max-width: calc(100vw);
+}
+@media only screen and (min-width: 600px) {
+  .dashboard-container {
+    margin-top: 65px;
+    margin-left: 16rem;
+    min-height: calc(100vh - 65px);
+    max-width: calc(100vw - 16rem);
+  }
+}

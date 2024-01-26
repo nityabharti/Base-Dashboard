@@ -1,0 +1,26 @@
+.signin {
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.signin-left {
+  border: 5px solid red;
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.signin-right {
+  border: 2px solid black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+.navbar-main {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-logo p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #030229;
+}
+
+.navbar-profile {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-menue {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-logo {
+    display: none;
+  }
+}
